@@ -1,0 +1,146 @@
+:root {
+    --main-color: #FF5506;
+}
+
+/* ........................................................................................ */
+.svg-container {
+    background-color: var(--main-color);
+    border-radius: 50%;
+    padding: 12px 16px;
+}
+
+.main-img {
+    cursor: pointer;
+    border: 2px solid var(--main-color);
+}
+
+.nav-title {
+    line-height: 0px;
+    text-wrap: nowrap;
+}
+
+.nav-title p {
+    font-size: 12px;
+}
+
+.sitting-svg,
+.save-svg,
+.time-svg {
+    transition: 0.4s;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+@media (max-width : 480px) {
+    
+}
+
+/* ........................................................................................ */
+.hero {
+    height: calc(100vh - 68px);
+    background-color: #FFF9EB;
+}
+
+.way {
+    background-color: #DBFCE7;
+    color: #55B17A;
+}
+
+.type {
+    background-color: #DBEAFE;
+    color: #1C4DE7;
+}
+
+.number {
+    background-color: var(--main-color);
+}
+
+.change {
+    background-color: var(--main-color);
+    transition: 0.4s;
+}
+
+.change:hover {
+    transform: scale(1.05);
+}
+
+.meal-title {
+    line-height: 16px;
+}
+
+.rate {
+    top: 6%;
+    left: 6%;
+}
+
+.how {
+    bottom: 10%;
+    left: 25%;
+}
+span{
+font-size: 12px;
+}
+/* ........................................................................................ */
+@media (max-width: 768px) {
+
+    .meal1 {
+        width: 95% !important;
+        height: auto !important;
+        flex-direction: column;
+    }
+
+    .meal-img {
+        width: 100% !important;
+        height: 350px !important;
+        margin: 0 !important;
+    }
+
+    .meal-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .meal1>div:last-child {
+        width: 100% !important;
+        height: auto !important;
+        padding: 25px !important;
+    }
+
+    .how {
+        width: 40% !important;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 576px) {
+
+    .svgs-container {
+        display: none !important;
+    }
+
+    .meal1 {
+        width: 95% !important;
+    }
+
+    .meal-img {
+        height: 280px !important;
+    }
+
+    .how {
+        width: 60% !important;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .rate {
+        width: 50%!important;
+        top: 10px;
+        right: 10px;
+    }
+}
+/* ........................................................................................ */
